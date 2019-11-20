@@ -982,3 +982,285 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.20-10.57.46:814][  9]LogMaterialEditor: Saving and Compiling material FireBall
 [2019.11.20-10.57.46:831][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/FireBall" FILE="D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset" SILENT=true
 [2019.11.20-10.57.46:846][  9]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/FireBall324971B845BB4371DACBB5953C2748DC.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset'
+[2019.11.20-11.02.03:208][703]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.11.20-11.03.18:033][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-11.03.22:098][  4]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.03.22:182][  5]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.11.20-11.03.24:525][282]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.03.35:711][612]MaterialEditorStats: Base pass shader: 115 instructions
+[2019.11.20-11.03.35:711][612]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 189 instructions
+[2019.11.20-11.03.35:711][612]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.03.35:711][612]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.03.35:711][612]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.03.35:711][612]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.04.13:945][982]LogMaterialEditor: Applying material FireBall
+[2019.11.20-11.04.14:289][982]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.04.14:350][982]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.04.14:365][982]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.04.14:418][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.11.20-11.04.14:427][982]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.20-11.04.25:206][982]TextureStreamingBuild: Display: Compiling optional shaders took 10.789 seconds.
+[2019.11.20-11.04.25:234][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.11.20-11.04.25:965][ 45]LogMaterialEditor: Saving and Compiling material FireBall
+[2019.11.20-11.04.25:991][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/FireBall" FILE="D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset" SILENT=true
+[2019.11.20-11.04.26:015][ 45]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/FireBall1A41C850486F56BCEB3CED8EBE34385F.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset'
+[2019.11.20-11.05.07:229][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/FireBall_Inst" FILE="D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall_Inst.uasset" SILENT=true
+[2019.11.20-11.05.07:251][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.11.20-11.05.07:257][770]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.11.20-11.05.07:279][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2019.11.20-11.05.07:300][770]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/FireBall_Inst4A457672480FEA64AC92538385194860.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall_Inst.uasset'
+[2019.11.20-11.06.17:552][ 80]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/StarterContent/Heat.Heat
+[2019.11.20-11.06.17:621][ 80]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2019.11.20-11.07.12:596][ 84]LogCascade: Quitting Cascade. FXSystem=0x00000214835E6140
+[2019.11.20-11.07.16:489][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2019.11.20-11.07.18:008][421]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.20-11.07.18:124][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.11.20-11.07.20:131][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.11.20-11.07.20:228][529]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/Minimal_DefaultA4848C1C40EE4B0FC5C9B2B6DF1911F4.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.11.20-11.07.38:061][478]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.07.40:630][781]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.07.41:523][885]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.07.44:048][182]LogMaterialEditor: Saving and Compiling material FireBall
+[2019.11.20-11.07.44:426][182]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.07.44:497][182]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.07.44:515][182]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.07.44:564][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.11.20-11.07.44:572][182]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.20-11.08.05:633][182]TextureStreamingBuild: Display: Compiling optional shaders took 21.069 seconds.
+[2019.11.20-11.08.05:655][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.11.20-11.08.05:768][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/FireBall" FILE="D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset" SILENT=true
+[2019.11.20-11.08.05:787][182]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/FireBall1E44992847901EC993AF498C26AA08B1.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset'
+[2019.11.20-11.08.05:800][182]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.08.05:800][182]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.08.05:800][182]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.08.05:800][182]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.08.05:800][182]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.08.05:800][182]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.08.14:736][219]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.08.14:750][219]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.20-11.08.22:017][ 74]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.08.22:017][ 74]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.08.22:017][ 74]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.08.22:017][ 74]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.08.22:017][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.08.22:017][ 74]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.09.26:193][ 29]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.09.26:216][ 29]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.20-11.09.26:247][ 29]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.09.28:439][288]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.09.32:634][765]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.09.32:652][765]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.20-11.09.32:682][765]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.09.43:788][ 42]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.09.43:804][ 42]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.20-11.09.43:834][ 42]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.10.05:746][174]LogMaterialEditor: Applying material FireBall
+[2019.11.20-11.10.06:150][174]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.10.06:213][174]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.10.06:232][174]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.10.06:288][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.11.20-11.10.06:296][174]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.20-11.10.17:151][174]TextureStreamingBuild: Display: Compiling optional shaders took 10.862 seconds.
+[2019.11.20-11.10.17:174][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.11.20-11.10.17:198][174]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.10.17:198][174]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.10.17:198][174]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.10.17:199][174]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.10.17:199][174]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.10.17:199][174]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.10.44:119][716]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.10.47:896][160]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.10.47:914][160]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.10.52:559][708]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.10.52:574][708]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.11.02:552][865]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.11.02:552][865]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.11.02:552][865]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.11.02:552][865]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.11.02:552][865]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.11.02:552][865]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.11.03:717][  4]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.11.03:734][  4]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.20-11.11.09:660][709]LogMaterialEditor: Saving and Compiling material FireBall
+[2019.11.20-11.11.10:041][709]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.11.10:111][709]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.11.10:128][709]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.11.10:179][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.11.20-11.11.10:186][709]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.20-11.11.21:526][709]TextureStreamingBuild: Display: Compiling optional shaders took 11.347 seconds.
+[2019.11.20-11.11.21:553][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.11.20-11.11.21:627][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/FireBall" FILE="D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset" SILENT=true
+[2019.11.20-11.11.21:680][709]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/FireBall3A493DA84130D566D40F36BEF7F4E630.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset'
+[2019.11.20-11.11.21:697][709]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.11.21:697][709]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.11.21:697][709]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.11.21:697][709]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.11.21:697][709]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.11.21:697][709]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.11.56:378][438]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.11.59:350][781]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.11.59:373][781]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.12.06:810][668]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.12.22:025][339]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.12.22:025][339]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.12.22:025][339]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.12.22:025][339]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.12.22:025][339]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.12.22:025][339]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.12.23:985][572]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.12.24:001][572]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.12.24:042][572]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.20-11.12.36:347][938]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.12.36:347][938]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.12.36:347][938]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.12.36:347][938]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.12.36:347][938]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.12.36:347][938]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.12.39:809][347]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.12.44:488][901]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.12.52:625][691]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.12.52:625][691]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.12.52:625][691]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.12.52:625][691]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.12.52:625][691]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.12.52:625][691]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.13.07:502][722]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.13.07:515][722]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.13.09:590][969]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.13.20:027][971]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.13.20:027][971]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.13.20:027][971]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.13.20:027][971]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.13.20:027][971]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.13.20:027][971]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.13.25:640][275]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.13.31:986][ 22]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.13.35:656][457]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.13.38:004][737]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.13.49:876][154]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.13.49:876][154]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.13.49:876][154]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.13.49:877][154]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.13.49:877][154]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.13.49:877][154]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.14.06:083][ 83]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.14.06:083][ 83]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.14.06:083][ 83]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.14.06:084][ 83]MaterialEditorStats: Error: [SM5] (Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.14.48:822][127]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.14.48:822][127]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.14.48:823][127]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.14.48:827][127]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.14.48:827][127]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.14.48:827][127]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.14.57:319][139]LogMaterialEditor: Applying material FireBall
+[2019.11.20-11.14.58:851][139]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2019.11.20-11.14.59:259][139]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.14.59:259][139]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.14.59:259][139]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.14.59:276][139]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.14.59:276][139]LogMaterial: Warning: D:\comp280-worksheet-3\COMP280_1_worksheet3\Content\StarterContent\FireBall.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.14.59:276][139]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.14.59:279][139]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.14.59:280][139]LogMaterial: Warning: D:\comp280-worksheet-3\COMP280_1_worksheet3\Content\StarterContent\FireBall.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.14.59:280][139]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.14.59:311][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.11.20-11.14.59:318][139]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.20-11.14.59:319][139]TextureStreamingBuild: Display: Compiling optional shaders took 0.008 seconds.
+[2019.11.20-11.14.59:343][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2019.11.20-11.15.35:481][810]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.35:482][810]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.35:482][810]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.15.35:485][810]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.35:486][810]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.35:486][810]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.15.38:964][225]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.38:964][225]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.38:964][225]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.15.40:279][382]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.40:279][382]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.40:279][382]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.15.40:282][382]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.40:283][382]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.40:283][382]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.15.57:899][298]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.57:900][298]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.57:900][298]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.15.57:903][298]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.57:903][298]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.57:903][298]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.15.59:694][512]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.59:695][512]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.59:695][512]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.15.59:698][512]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.15.59:698][512]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.15.59:698][512]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.16.00:701][632]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.16.00:702][632]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.16.00:702][632]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.16.12:607][996]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.16.15:822][370]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.16.17:517][569]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.16.17:518][569]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.16.17:518][569]LogMaterial: 	(Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.16.17:519][569]MaterialEditorStats: Error: [SM5] (Node Add) Arithmetic between types float2 and float3 are undefined
+[2019.11.20-11.16.38:569][ 89]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.16.38:570][ 89]LogMaterial: Warning: /Engine/Transient.FireBall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.20-11.16.38:570][ 89]LogMaterial: 	(Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2019.11.20-11.16.38:577][ 89]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.20-11.16.38:604][ 89]MaterialEditorStats: Error: [SM5] (Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2019.11.20-11.16.55:803][122]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.16.58:815][476]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.17.08:304][599]MaterialEditorStats: Base pass shader: 112 instructions
+[2019.11.20-11.17.08:304][599]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 186 instructions
+[2019.11.20-11.17.08:304][599]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.17.08:304][599]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.17.08:304][599]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.17.08:304][599]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.17.10:549][864]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.17.12:025][ 35]LogMaterialEditor: Saving and Compiling material FireBall
+[2019.11.20-11.17.12:410][ 35]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.17.12:473][ 35]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.17.12:492][ 35]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.17.12:539][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.11.20-11.17.12:547][ 35]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.20-11.17.28:114][ 35]TextureStreamingBuild: Display: Compiling optional shaders took 15.574 seconds.
+[2019.11.20-11.17.28:166][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.11.20-11.17.28:252][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/FireBall" FILE="D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset" SILENT=true
+[2019.11.20-11.17.28:277][ 35]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/FireBallFBBCBD29495A20E173E26C826B073154.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset'
+[2019.11.20-11.17.28:297][ 35]MaterialEditorStats: Base pass shader: 118 instructions
+[2019.11.20-11.17.28:297][ 35]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2019.11.20-11.17.28:297][ 35]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.17.28:297][ 35]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.20-11.17.28:297][ 35]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.20-11.17.28:297][ 35]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.17.51:457][775]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.17.53:716][ 40]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.18.01:926][  9]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.18.05:536][437]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.18.09:205][875]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.18.11:779][181]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.18.11:797][181]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.20-11.18.14:768][532]LogMaterialEditor: Saving and Compiling material FireBall
+[2019.11.20-11.18.15:143][532]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.18.15:211][532]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.18.15:229][532]LogMaterial: Display: Missing cached shader map for material FireBall, compiling. 
+[2019.11.20-11.18.15:276][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.11.20-11.18.15:284][532]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.20-11.18.34:430][532]TextureStreamingBuild: Display: Compiling optional shaders took 19.153 seconds.
+[2019.11.20-11.18.34:454][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.11.20-11.18.34:548][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/FireBall" FILE="D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset" SILENT=true
+[2019.11.20-11.18.34:569][532]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/FireBall6B8492174F9EE63E10EA34A37FEAE0D6.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall.uasset'
+[2019.11.20-11.18.34:582][532]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.20-11.18.34:582][532]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.11.20-11.18.34:582][532]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-11.18.34:582][532]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.20-11.18.34:582][532]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-11.18.34:582][532]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-11.19.40:290][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/FireBall_Inst" FILE="D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall_Inst.uasset" SILENT=true
+[2019.11.20-11.19.40:313][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.11.20-11.19.40:319][549]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.11.20-11.19.40:341][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2019.11.20-11.19.40:360][549]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/FireBall_Inst57548CC247F52DE5387CA9B16EF52A50.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/FireBall_Inst.uasset'
+[2019.11.20-11.20.35:612][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.11.20-11.20.35:715][757]LogSavePackage: Moving 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Saved/Minimal_DefaultC1667EC245396DD8E5B486AD651A4083.tmp' to 'D:/comp280-worksheet-3/COMP280_1_worksheet3/Content/StarterContent/Maps/Minimal_Default.umap'
