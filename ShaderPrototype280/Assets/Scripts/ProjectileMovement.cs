@@ -18,7 +18,7 @@ public class ProjectileMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        z = transform.position.z + 1 * Time.deltaTime;
+        z = transform.position.z + speed * Time.deltaTime;
         transform.position = new Vector3(transform.position.x, transform.position.y, z);
 
         Destroy(gameObject, 5);
