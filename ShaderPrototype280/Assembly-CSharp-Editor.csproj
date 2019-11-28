@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/mo214885/Documents/comp280-worksheet-3/ShaderPrototype280/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Editor">
  <HintPath>C:/Users/mo214885/Documents/comp280-worksheet-3/ShaderPrototype280/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
@@ -81,6 +84,9 @@
  <Reference Include="Unity.Postprocessing.Runtime">
  <HintPath>C:/Users/mo214885/Documents/comp280-worksheet-3/ShaderPrototype280/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/mo214885/Documents/comp280-worksheet-3/ShaderPrototype280/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
  <HintPath>C:/Users/mo214885/Documents/comp280-worksheet-3/ShaderPrototype280/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
@@ -92,12 +98,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>C:/Users/mo214885/Documents/comp280-worksheet-3/ShaderPrototype280/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>C:/Users/mo214885/Documents/comp280-worksheet-3/ShaderPrototype280/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/mo214885/Documents/comp280-worksheet-3/ShaderPrototype280/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
