@@ -6,6 +6,13 @@ public class ProjectileMovement : MonoBehaviour
 {
     [SerializeField]
     float height;
+    [SerializeField]
+    float maxEmissionIntensity;
+
+    float emissionIntensity;
+    float t;
+    Renderer renderer;
+    bool inLava;
 
     Rigidbody rb;
     float z;
@@ -15,16 +22,30 @@ public class ProjectileMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
+        renderer = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         if (transform.position.y <= -2)
-        {
-            Debug.Log(rb.velocity);
+        { 
             rb.AddForce(new Vector3(0, height, 0), ForceMode.Impulse);
             rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
+            emissionIntensity = 0;
+            inLava = true;
         }
+
+        if(inLava)
+            IncreaseEmission();
+
+        renderer.material.SetFloat("_EmissionIntensity", emissionIntensity);
     }
+
+    void IncreaseEmission() 
+    {
+        emissionIntensity = Mathf.Lerp(emissionIntensity, maxEmissionIntensity, t);
+        t += 0.5f * Time.deltaTime;
+    }
+
 }
