@@ -266,6 +266,16 @@ PrefabInstance:
       propertyPath: height
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: maxEmissionIntensity
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
 --- !u!1001 &208988112
@@ -339,6 +349,16 @@ PrefabInstance:
         type: 3}
       propertyPath: height
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: maxEmissionIntensity
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
@@ -504,6 +524,16 @@ PrefabInstance:
         type: 3}
       propertyPath: height
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: maxEmissionIntensity
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}

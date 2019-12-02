@@ -29,15 +29,24 @@ public class ProjectileMovement : MonoBehaviour
     void Update()
     {
         if (transform.position.y <= -2)
-        { 
+        {
             rb.AddForce(new Vector3(0, height, 0), ForceMode.Impulse);
             rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
             emissionIntensity = 0;
+            t = 0;
             inLava = true;
         }
 
         if(inLava)
-            IncreaseEmission();
+        {
+            if (emissionIntensity <= maxEmissionIntensity)
+            {
+                IncreaseEmission();
+            }
+            else
+                inLava = false;
+        }
+            
 
         renderer.material.SetFloat("_EmissionIntensity", emissionIntensity);
     }
@@ -45,7 +54,7 @@ public class ProjectileMovement : MonoBehaviour
     void IncreaseEmission() 
     {
         emissionIntensity = Mathf.Lerp(emissionIntensity, maxEmissionIntensity, t);
-        t += 0.5f * Time.deltaTime;
+        t += 0.1f * Time.deltaTime;
     }
 
 }
