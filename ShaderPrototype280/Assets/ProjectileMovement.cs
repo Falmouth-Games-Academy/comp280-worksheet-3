@@ -28,6 +28,7 @@ public class ProjectileMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Launch game object upwards and reset emission value when it's below -2 on the y axis
         if (transform.position.y <= -2)
         {
             rb.AddForce(new Vector3(0, height, 0), ForceMode.Impulse);
@@ -37,6 +38,7 @@ public class ProjectileMovement : MonoBehaviour
             inLava = true;
         }
 
+        //When in the lava call IncraseEmission
         if(inLava)
         {
             if (emissionIntensity <= maxEmissionIntensity)
@@ -47,10 +49,11 @@ public class ProjectileMovement : MonoBehaviour
                 inLava = false;
         }
             
-
+        //Access emission intensity value in the shader material
         renderer.material.SetFloat("_EmissionIntensity", emissionIntensity);
     }
 
+    //Increase the emission intensity over time
     void IncreaseEmission() 
     {
         emissionIntensity = Mathf.Lerp(emissionIntensity, maxEmissionIntensity, t);
