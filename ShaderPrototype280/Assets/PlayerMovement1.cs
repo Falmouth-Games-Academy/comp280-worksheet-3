@@ -21,12 +21,15 @@ public class PlayerMovement1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Change the objects velocity based on the player's input 
         rb.velocity = new Vector3(0, y, Input.GetAxis("Horizontal") * speed);
 
+        //Start coroutine when space is pressed
         if (Input.GetKeyDown(KeyCode.Space))
             StartCoroutine(Jump());
     }
 
+    //Increase the player's velocity on the y axis
     public IEnumerator Jump()
     {
         y = jumpForce;
