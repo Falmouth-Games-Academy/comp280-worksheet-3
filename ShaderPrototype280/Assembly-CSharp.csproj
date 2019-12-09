@@ -53,9 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FireProjectile.cs" />
-     <Compile Include="Assets\PlayerMovement1.cs" />
-     <Compile Include="Assets\ProjectileMovement.cs" />
+     <Compile Include="Assets\COMP280Materials\Scripts\FireProjectile.cs" />
+     <Compile Include="Assets\COMP280Materials\Scripts\PlayerMovement1.cs" />
+     <Compile Include="Assets\COMP280Materials\Scripts\ProjectileMovement.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
  <Reference Include="Unity.RenderPipelines.Core.Editor">
