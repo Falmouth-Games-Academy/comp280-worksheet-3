@@ -10,12 +10,15 @@ public class PlayerMovement1 : MonoBehaviour
     float x;
     float y;
     Rigidbody rb;
+    Vector3 startPos;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Access rigidbody and set start position to player's begining position
         rb = GetComponent<Rigidbody>();
         y = -rb.mass;
+        startPos = transform.position;
     }
 
     // Update is called once per frame
@@ -35,5 +38,13 @@ public class PlayerMovement1 : MonoBehaviour
         y = jumpForce;
         yield return new WaitForSeconds(1);
         y = -rb.mass;
+    }
+
+    //If the player collides with a magmaball reset its position
+    private void OnTriggerEnter(Collider other) 
+    {
+        Debug.Log(other.tag);
+        if (other.tag.Contains("Danger"))
+            transform.position = startPos;
     }
 }

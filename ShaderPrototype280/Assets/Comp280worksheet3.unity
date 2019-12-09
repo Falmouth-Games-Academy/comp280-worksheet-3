@@ -206,6 +206,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magmaball (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573499, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573499, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_TagString
+      value: Danger
+      objectReference: {fileID: 0}
     - target: {fileID: 8609562373156573479, guid: a3cfaf01ea945d445ad3fd53399d0c12,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -261,6 +271,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573496, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
 --- !u!1001 &208988112
@@ -274,6 +289,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Magmaball (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573499, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573499, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_TagString
+      value: Danger
       objectReference: {fileID: 0}
     - target: {fileID: 8609562373156573479, guid: a3cfaf01ea945d445ad3fd53399d0c12,
         type: 3}
@@ -349,6 +374,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 88ddce984a405754ea52ae7a61dd21b2, type: 2}
+    - target: {fileID: 8609562373156573496, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
 --- !u!1 &473840318
@@ -454,6 +484,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magmaball
       objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573499, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_TagString
+      value: Danger
+      objectReference: {fileID: 0}
     - target: {fileID: 8609562373156573479, guid: a3cfaf01ea945d445ad3fd53399d0c12,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -509,29 +544,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
-        type: 3}
-      propertyPath: height
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
-        type: 3}
-      propertyPath: maxEmissionIntensity
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8891110901739349082, guid: a3cfaf01ea945d445ad3fd53399d0c12,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1163772982, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1163772982, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 88ddce984a405754ea52ae7a61dd21b2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
 --- !u!1 &518359642
@@ -888,6 +900,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 88ddce984a405754ea52ae7a61dd21b2, type: 2}
+    - target: {fileID: 8609562373156573496, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
 --- !u!1 &898925480
@@ -1338,6 +1355,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magmaball (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573499, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573499, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_TagString
+      value: Danger
+      objectReference: {fileID: 0}
     - target: {fileID: 8609562373156573479, guid: a3cfaf01ea945d445ad3fd53399d0c12,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1392,6 +1419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609562373156573496, guid: a3cfaf01ea945d445ad3fd53399d0c12,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3cfaf01ea945d445ad3fd53399d0c12, type: 3}
