@@ -24,12 +24,7 @@ public class FireProjectile : MonoBehaviour
         StartCoroutine("FireObject");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-            
-    }
-
+    //Continuasly run code in coroutine
     public IEnumerator FireObject() 
     {
         while (true) 
@@ -39,6 +34,7 @@ public class FireProjectile : MonoBehaviour
         }
     }
 
+    //Spawn fireball, apply force to object and then destroy it after 10 seconds
     void Launch() 
     {
         GameObject magma = Instantiate(projectile, transform.position, Quaternion.identity);
