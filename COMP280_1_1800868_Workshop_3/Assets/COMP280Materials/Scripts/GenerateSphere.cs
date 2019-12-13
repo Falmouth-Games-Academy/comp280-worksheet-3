@@ -7,10 +7,15 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter))]
 public class GenerateSphere : MonoBehaviour
 {
-    public float radius = 1f;
+    [SerializeField]
+    private float radius = 1f;
+
     // Longitude |||
+    [SerializeField]
     public int nbLong = 24;
+
     // Latitude ---
+    [SerializeField]
     public int nbLat = 16;
 
     // Start is called before the first frame update
