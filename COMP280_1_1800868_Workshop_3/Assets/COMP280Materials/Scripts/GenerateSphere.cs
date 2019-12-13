@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//The code below came from: http://wiki.unity3d.com/index.php/ProceduralPrimitives and has been modified
+//The code below came from: http://wiki.unity3d.com/index.php/ProceduralPrimitives and has been modified 
 
 [RequireComponent(typeof(MeshFilter))]
 public class GenerateSphere : MonoBehaviour

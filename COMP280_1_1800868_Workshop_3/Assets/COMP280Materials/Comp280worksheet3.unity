@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 1
-  nbLong: 15
+  nbLong: 24
   nbLat: 24
 --- !u!1 &1034977866
 GameObject:
