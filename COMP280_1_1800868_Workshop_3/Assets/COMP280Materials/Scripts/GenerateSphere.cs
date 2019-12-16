@@ -18,6 +18,9 @@ public class GenerateSphere : MonoBehaviour
     [SerializeField]
     public int nbLat = 16;
 
+    List<Vector3> spherePos = new List<Vector3>();
+    int count;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,12 +49,13 @@ public class GenerateSphere : MonoBehaviour
                 float sin2 = Mathf.Sin(a2);
                 float cos2 = Mathf.Cos(a2);
 
-                vertices[lon + lat * (nbLong + 1) + 1] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * radius;
+                spherePos.Add(vertices[lon + lat * (nbLong + 1) + 1] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * radius);
             }
         }
         vertices[vertices.Length - 1] = Vector3.up * -radius;
         #endregion
 
+        //Set the normal value for each vertex
         #region Normales		
         Vector3[] normales = new Vector3[vertices.Length];
         for (int n = 0; n < vertices.Length; n++)
@@ -78,7 +82,7 @@ public class GenerateSphere : MonoBehaviour
         int i = 0;
         for (int lon = 0; lon < nbLong; lon++)
         {
-            triangles[i++] = lon + 2;
+            triangles[i++] = lon + 3;
             triangles[i++] = lon + 1;
             triangles[i++] = 0;
         }
@@ -114,5 +118,19 @@ public class GenerateSphere : MonoBehaviour
         mesh.normals = normales;
         mesh.uv = uvs;
         mesh.triangles = triangles;
+    }
+
+    void OnDrawGizmos() 
+    {
+        for (int i = 0; i < spherePos.Count; i++) 
+        {
+            Gizmos.color = Color.red;
+            Vector3 posWithNoise = spherePos[i] * Mathf.PerlinNoise(spherePos[i].x, spherePos[i].y);
+
+            if (i % 10 == 0)
+                Gizmos.color = Color.green;
+
+            Gizmos.DrawWireSphere(spherePos[i] + transform.position * 5, 00000.1f);
+        }
     }
 }
