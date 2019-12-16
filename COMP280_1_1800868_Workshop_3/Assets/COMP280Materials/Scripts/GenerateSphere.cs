@@ -27,19 +27,21 @@ public class GenerateSphere : MonoBehaviour
         GetComponent<MeshFilter>().mesh = mesh;
 
         #region Vertices
-        Vector3[] vertices = new Vector3[(nbLong + 1) * nbLat + 2];
+        Vector3[] vertices = new Vector3[(nbLong + 1) * nbLat + 1];
         float _pi = Mathf.PI;
         float _2pi = _pi * 2f;
 
         vertices[0] = Vector3.up * radius;
         for (int lat = 0; lat < nbLat; lat++)
         {
+            // Manipulate height of sphere
             float a1 = _pi * (float)(lat + 1) / (nbLat + 1);
             float sin1 = Mathf.Sin(a1);
             float cos1 = Mathf.Cos(a1);
 
             for (int lon = 0; lon <= nbLong; lon++)
             {
+                // Manipulate width of sphere
                 float a2 = _2pi * (float)(lon == nbLong ? 0 : lon) / nbLong;
                 float sin2 = Mathf.Sin(a2);
                 float cos2 = Mathf.Cos(a2);
@@ -56,6 +58,7 @@ public class GenerateSphere : MonoBehaviour
             normales[n] = vertices[n].normalized;
         #endregion
 
+        //Set up UV Mapping
         #region UVs
         Vector2[] uvs = new Vector2[vertices.Length];
         uvs[0] = Vector2.up;
