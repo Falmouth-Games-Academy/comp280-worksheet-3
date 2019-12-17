@@ -49,7 +49,7 @@ public class GenerateSphere : MonoBehaviour
                 float sin2 = Mathf.Sin(a2);
                 float cos2 = Mathf.Cos(a2);
 
-                spherePos.Add(vertices[lon + lat * (nbLong + 1) + 1] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * radius);
+                spherePos.Add(vertices[lon + lat * (nbLong) + 1] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * radius);
             }
         }
         vertices[vertices.Length - 1] = Vector3.up * -radius;
@@ -95,7 +95,7 @@ public class GenerateSphere : MonoBehaviour
                 int current = lon + lat * (nbLong) + 1;
                 int next = current + nbLong + 1;
 
-                if (lat == vertices.Length - 10)
+                if (lat == vertices.Length - 4)
                     current = lon + lat * (nbLong + 1) + 1;
 
                 triangles[i++] = current;
@@ -106,7 +106,6 @@ public class GenerateSphere : MonoBehaviour
                 triangles[i++] = next + 1;
                 triangles[i++] = next;
 
-                
             }
         }
 
