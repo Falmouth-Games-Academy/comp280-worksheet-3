@@ -18,9 +18,6 @@ public class GenerateSphere : MonoBehaviour
     [SerializeField]
     public int nbLat = 16;
 
-    List<Vector3> spherePos = new List<Vector3>();
-    int count;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +46,7 @@ public class GenerateSphere : MonoBehaviour
                 float sin2 = Mathf.Sin(a2);
                 float cos2 = Mathf.Cos(a2);
 
-                spherePos.Add(vertices[lon + lat * (nbLong) + 1] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * radius);
+                vertices[lon + lat * (nbLong) + 1] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * radius;
             }
         }
         vertices[vertices.Length - 1] = Vector3.up * -radius;
@@ -122,19 +119,5 @@ public class GenerateSphere : MonoBehaviour
         mesh.normals = normales;
         mesh.uv = uvs;
         mesh.triangles = triangles;
-    }
-
-    void OnDrawGizmos() 
-    {
-        for (int i = 0; i < spherePos.Count; i++) 
-        {
-            Gizmos.color = Color.red;
-            Vector3 posWithNoise = spherePos[i] * Mathf.PerlinNoise(spherePos[i].x, spherePos[i].y);
-
-            if (i == spherePos.Count - 4)
-                Gizmos.color = Color.green;
-
-            Gizmos.DrawWireSphere(spherePos[i], 00000.1f);
-        }
     }
 }
