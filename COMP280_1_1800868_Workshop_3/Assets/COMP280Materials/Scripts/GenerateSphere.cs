@@ -95,7 +95,7 @@ public class GenerateSphere : MonoBehaviour
                 int current = lon + lat * (nbLong) + 1;
                 int next = current + nbLong + 1;
 
-                if (lon == triangles.Length - 10)
+                if (lat == triangles.Length - 10)
                     current = lon + lat * (nbLong + 1) + 1;
 
                 triangles[i++] = current;
