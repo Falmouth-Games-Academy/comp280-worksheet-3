@@ -30,7 +30,7 @@ public class GenerateSphere : MonoBehaviour
         GetComponent<MeshFilter>().mesh = mesh;
 
         #region Vertices
-        Vector3[] vertices = new Vector3[(nbLong + 1) * nbLat + 1];
+        Vector3[] vertices = new Vector3[(nbLong + 1) * nbLat + 2];
         float _pi = Mathf.PI;
         float _2pi = _pi * 2f;
 
@@ -38,7 +38,7 @@ public class GenerateSphere : MonoBehaviour
         for (int lat = 0; lat < nbLat; lat++)
         {
             // Manipulate height of sphere
-            float a1 = _pi * (float)(lat + 1) / (nbLat + 1);
+            float a1 = _pi * (float)(lat + 2) / (nbLat + 1);
             float sin1 = Mathf.Sin(a1);
             float cos1 = Mathf.Cos(a1);
 
@@ -95,7 +95,7 @@ public class GenerateSphere : MonoBehaviour
                 int current = lon + lat * (nbLong) + 1;
                 int next = current + nbLong + 1;
 
-                if (lat == triangles.Length - 10)
+                if (lat == vertices.Length - 10)
                     current = lon + lat * (nbLong + 1) + 1;
 
                 triangles[i++] = current;

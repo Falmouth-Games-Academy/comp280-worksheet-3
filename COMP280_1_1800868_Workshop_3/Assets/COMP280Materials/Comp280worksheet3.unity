@@ -635,8 +635,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 1
-  nbLong: 24
-  nbLat: 16
+  nbLong: 34
+  nbLat: 26
 --- !u!23 &496943067
 MeshRenderer:
   m_ObjectHideFlags: 0
