@@ -30,7 +30,7 @@ public class GenerateSphere : MonoBehaviour
         GetComponent<MeshFilter>().mesh = mesh;
 
         #region Vertices
-        Vector3[] vertices = new Vector3[(nbLong + 2) * nbLat + 2];
+        Vector3[] vertices = new Vector3[(nbLong + 1) * nbLat + 1];
         float _pi = Mathf.PI;
         float _2pi = _pi * 2f;
 
