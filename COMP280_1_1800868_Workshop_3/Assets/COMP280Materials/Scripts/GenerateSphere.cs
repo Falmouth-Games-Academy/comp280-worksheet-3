@@ -30,7 +30,7 @@ public class GenerateSphere : MonoBehaviour
         GetComponent<MeshFilter>().mesh = mesh;
 
         #region Vertices
-        Vector3[] vertices = new Vector3[(nbLong + 1) * nbLat + 1];
+        Vector3[] vertices = new Vector3[(nbLong + 2) * nbLat + 2];
         float _pi = Mathf.PI;
         float _2pi = _pi * 2f;
 
@@ -92,8 +92,11 @@ public class GenerateSphere : MonoBehaviour
         {
             for (int lon = 0; lon < nbLong; lon++)
             {
-                int current = lon + lat * (nbLong + 1) + 1;
+                int current = lon + lat * (nbLong) + 1;
                 int next = current + nbLong + 1;
+
+                if (lon == triangles.Length - 10)
+                    current = lon + lat * (nbLong + 1) + 1;
 
                 triangles[i++] = current;
                 triangles[i++] = current + 1;
@@ -102,6 +105,8 @@ public class GenerateSphere : MonoBehaviour
                 triangles[i++] = current;
                 triangles[i++] = next + 1;
                 triangles[i++] = next;
+
+                
             }
         }
 
@@ -127,10 +132,10 @@ public class GenerateSphere : MonoBehaviour
             Gizmos.color = Color.red;
             Vector3 posWithNoise = spherePos[i] * Mathf.PerlinNoise(spherePos[i].x, spherePos[i].y);
 
-            if (i % 10 == 0)
+            if (i == spherePos.Count - 4)
                 Gizmos.color = Color.green;
 
-            Gizmos.DrawWireSphere(spherePos[i] + transform.position * 5, 00000.1f);
+            Gizmos.DrawWireSphere(spherePos[i], 00000.1f);
         }
     }
 }
