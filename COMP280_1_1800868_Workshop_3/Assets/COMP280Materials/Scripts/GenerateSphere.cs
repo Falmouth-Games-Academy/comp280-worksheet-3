@@ -48,7 +48,7 @@ public class GenerateSphere : MonoBehaviour
 
                 //Sets position of each vertex based on longistude and latitude
                 //Applied perlin noise to affect phsycial shape of sphere
-                vertices[lon + lat * (nbLong + 1)] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * Mathf.PerlinNoise(Random.Range(sin1, cos1), Random.Range(cos1, cos2)) * radius;
+                vertices[lon + lat * (nbLong + 1)] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * Mathf.PerlinNoise(Random.Range(sin1/2, cos1/2), Random.Range(cos1/2, cos2/2)) * radius;
             }
         }
 
@@ -82,7 +82,7 @@ public class GenerateSphere : MonoBehaviour
         int i = 0;
         for (int lon = 0; lon < nbLong; lon++)
         {
-            triangles[i++] = lon + 3;
+            triangles[i++] = lon + 2;
             triangles[i++] = lon + 1;
             triangles[i++] = 0;
         }
