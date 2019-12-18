@@ -46,9 +46,12 @@ public class GenerateSphere : MonoBehaviour
                 float sin2 = Mathf.Sin(a2);
                 float cos2 = Mathf.Cos(a2);
 
-                vertices[lon + lat * (nbLong) + 1] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * radius;
+                //Sets position of each vertex based on longistude and latitude
+                //Applied perlin noise to affect phsycial shape of sphere
+                vertices[lon + lat * (nbLong + 1)] = new Vector3(sin1 * cos2, cos1, sin1 * sin2) * Mathf.PerlinNoise(Random.Range(sin1, cos1), Random.Range(cos1, cos2)) * radius;
             }
         }
+
         vertices[vertices.Length - 1] = Vector3.up * -radius;
         #endregion
 
