@@ -62,10 +62,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_164714CD: 250
+    - Vector1_164714CD: 500
     - Vector1_46DF53C3: 0.01
-    - Vector1_8C5843A5: 2
-    - Vector1_FBDA4F06: 5
+    - Vector1_8504EC9A: 1
+    - Vector1_8C5843A5: 5
+    - Vector1_FBDA4F06: 8
     - _Amount: 1
     - _Amplitude: 0.4
     - _AnimationSpeed: 1
@@ -86,7 +87,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _Vector1_7A1418A3: 0.2
+    - _Vector1_7A1418A3: 0.5
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.5471698, g: 0.42073736, b: 0, a: 1}
