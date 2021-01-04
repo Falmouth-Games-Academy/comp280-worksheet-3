@@ -1,0 +1,14 @@
+General pointers
+
+  Response time
+  Project size
+  Details on core changes
+  Details on additions? and reasoning
+    particularly for payload templating
+
+Pre modification analysis
+
+Post modification analysis
+
+Post release analysis
+  What could I do better?
